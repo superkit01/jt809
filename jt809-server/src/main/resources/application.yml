@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: dev
+    include:
+    - rabbit
+jt809: 
+  serverIp: 127.0.0.1 #809上级平台ip
+  serverPort: 8080 # 809上级平台端口
+  userId: 1234
+  password: 1234
+  msgGnssscenterId: 1234
+  versionFlag: 1.2.15 
+  localIp: 127.0.0.1 #本地对外ip
+  localPort: 8081 #本地服务对外端口
+    
+logging:
+  level:
+    com.superkit: info
+  file: log/jt809.log
+  
